@@ -110,6 +110,11 @@ footer{
 	border-radius: 10px;
 }
 
+#lista{
+	color:white;
+	font-size: 25pt;
+	font-family:The Foregen;
+}
 
 #exclusive{
 	background-color: #150024;
@@ -133,8 +138,9 @@ footer{
 h1:hover{
 	background-color:black; 
 	
-	
-	
+}
+
+ol:hover{
 	
 }
 
