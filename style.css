@@ -1,0 +1,246 @@
+body{
+	
+	background-attachment:scroll;
+	background-color: #000f09;
+}
+
+header{
+	
+}
+
+article{
+	color:white;
+	text-align: center;
+	font-family:The Foregen;
+}
+
+
+pre{
+	color:white;
+	text-align:center;
+	font-family:The Foregen;
+}
+
+h1{
+	
+	background-color:;
+	font-size:2rem;
+	color:White;
+	text-shadow:;
+	font-family:XHARP DEMO;
+	text-align:center;
+	
+}
+
+h2{
+	background-color:;
+	font-size:2rem;
+	color:White;
+	text-shadow:;
+	text-align:center;
+	font-family:The Forgen;
+
+}
+
+h3{
+	color:white;
+	font-size:2rem;
+	font-stretch:bold;
+	margin:auto;
+	text-align:center;
+	font-family:The Forgen;
+}
+
+
+
+footer{
+	background-color: gray;
+	color:white;
+	text-align:center;
+	position:bottom center;
+	clear:both;
+	
+}
+
+
+#chip{
+	
+	align-items: center;
+	justify-content: center;
+	box-shadow: 10px 10px 20px black;
+	border-radius: 20px;
+	margin-left: 8.5%;
+	margin-right: 8.5%;
+	min-height: 550px;
+	background-color: #00301c;
+	
+}
+
+#container{
+	background:;
+	
+	width:95%;
+	margin:auto;
+	
+	
+}
+
+#direita{
+	background-color: #00301c;
+	width: 47%;
+	height:380px;
+	float: right;
+	align-content: center;
+	align-items:center;
+	box-shadow: 10px 10px 20px black;
+    border-radius: 10px;
+    
+}
+
+
+
+#esquerda{
+	align-content: center;
+	align-items:center;
+	background-color: #150024;
+	width: 47%;
+	height:380px;
+	float:left;
+	box-shadow: 10px 10px 20px black;
+	border-radius: 10px;
+}
+
+#lista{
+	color:white;
+	font-size: 25pt;
+	font-family:The Foregen;
+}
+
+#exclusive{
+	background-color: #150024;
+	box-shadow: 10px 10px 20px black;
+	border-radius: 20px;
+	margin-left: 7.5%;
+	margin-right: 7.5%;
+	min-height: 500px;
+	align-items: center;
+}
+
+#video{
+	background-color: #181818;
+	margin-left: 12%;
+	margin-right: 12%;
+	border-radius: 15px;
+	min-height: 345px;
+	box-shadow: 10px 10px 20px black;
+}
+
+h1:hover{
+	background-color:black; 
+	
+}
+
+ol:hover{
+	
+}
+
+
+img:hover{
+	transform: ;
+	border:2px double rgb(252, 3, 3);
+	
+	
+}
+
+
+.container{
+	margin: auto;
+	width: auto;
+}
+
+@media only screen and (max-device-width: 900px) {
+	/* .menu { width:100%; } */
+}
+
+
+a:link {
+	color: blue;
+  }
+  
+  
+  a:visited {
+	color: blueviolet;
+  }
+
+
+
+
+
+.navbar {
+	overflow: hidden;
+	background-color: #333;
+	font-family: Arial;
+  }
+  
+ 
+  .navbar a {
+	float: left;
+	font-size: 16px;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+  }
+  
+
+  .dropdown {
+	float: left;
+	overflow: hidden;
+  }
+  
+  
+  .dropdown .dropbtn {
+	font-size: 16px; 
+	border: none;
+	outline: none;
+	color: white;
+	padding: 14px 16px;
+	background-color: inherit;
+	font-family: inherit; 
+	margin: 0; 
+  }
+  
+  
+  .navbar a:hover, .dropdown:hover .dropbtn {
+	background-color: red;
+  }
+  
+  
+  .dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #f9f9f9;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+  }
+  
+  
+  .dropdown-content a {
+	float: none;
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+	text-align: left;
+  }
+  
+  
+  .dropdown-content a:hover {
+	background-color: #ddd;
+  }
+  
+ 
+  .dropdown:hover .dropdown-content {
+	display: block;
+  }
